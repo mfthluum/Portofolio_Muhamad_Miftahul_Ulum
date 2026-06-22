@@ -583,3 +583,28 @@ justify-content:center;
     cursor: pointer;
     transition: .3s;
 }
+
+.kontak-btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+
+.btn-kontak {
+    padding: 12px 25px;
+    background: #38bdf8;
+    color: #0f172a;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 50px;
+    transition: .3s;
+    display: inline-block;
+}
+
+.btn-kontak:hover {
+    background: white;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(56, 189, 248, 0.4);
+}
